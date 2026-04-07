@@ -4,6 +4,14 @@ This is a learning project intended to provide a beginner web developer an oppor
 
 This project is a simple Recipe Manager, that will allow a user to list, view, add, edit, and delete recipes from a personal collection.
 
+## Live Site
+
+https://deaths-recipe-manager.vercel.app/
+
+This project is hosted on Vercel. When you push a branch, a copy of the site will be deployed with your updates.
+
+## Goals
+
 - Short term: `localStorage` for data storage. Recipe collection will exist on a single browser.
 - Mid term: add an "Export/Import" function to export your recipe collection as JSON and import it into another browser
 - Long term: add MongoDB support to allow the collection to be available from any browser
@@ -28,7 +36,7 @@ The files and folders that are **important**:
 
 The files and folders that are _less important_:
 
-- .gitignore - this tells Git what files and folders _not_ to include in a repository. This is not currently necessary but may become necessary in the future.
+- .gitignore - this tells Git what files and folders _not_ to include in the source control repository.
 - .prettierrc.yml - this is a configuration file for a code formatter.
 - CLAUDE.md - this is a configuration file for the AI agent I personally used to speed up setting up this project. I would recommend _not_ using Claude or ChatGPT yourself yet.
 - vercel.json - this is a configuration file for deployment

@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recipe Manager</title>
+    <link rel="stylesheet" href="../styles/styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Death's Recipe Manager</h1>
+      <nav>
+        <ul>
+          <li>
+            <a href="../">Back To Home</a>
+          </li>
+          <li>
+            <a href="./add.html">Add A Recipe</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h2>Recipe List</h2>
+      <div id="list"></div>
+
+      <article id="template" style="display: none">
+        <hr />
+        <a class="recipe-link" href="/pages/recipe.html">
+          <h2 class="recipe-title">Title</h2>
+        </a>
+        <div class="recipe-description">Description</div>
+        <button class="delete">Delete this Recipe</button>
+      </article>
+    </main>
+    <script src="../scripts/list.esm.js" type="module"></script>
+  </body>
+</html>

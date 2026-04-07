@@ -1,4 +1,4 @@
-# recipe-manager
+# deaths-recipe-manager
 
 This is a learning project intended to provide a beginner web developer an opportunity to style and extend an existing (but unstyled) web application.
 
